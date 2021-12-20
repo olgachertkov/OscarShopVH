@@ -25,11 +25,6 @@ public class selenideTests {
         SelenideElement viewBasketButton = $(".btn-group a.btn.btn-default");
         langSelector.selectOption("Русский");
         goButton.click();
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         viewBasketButton.shouldHave(Condition.text("Посмотреть корзину"));
     }
 
