@@ -26,7 +26,7 @@ public class selenideTests {
         langSelector.selectOption("Русский");
         goButton.click();
         viewBasketButton.shouldHave(Condition.text("Посмотреть корзину"));
-//        hjgkuyt
+//        hjgkuytklnjikh
     }
 
 
